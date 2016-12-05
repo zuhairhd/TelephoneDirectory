@@ -1,0 +1,77 @@
+/* */
+html {
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	width: 100%;
+	}
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 24px;
+	height: 100%;
+	width: 100%;
+	background-image: url("images/back.png");
+	background-position: top;
+	}
+	
+
+
+#container {
+	width: 800px;
+	margin: 10px 20px 20px 120px;
+	}
+/* firefox */	
+body >#container {
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	position: relative;
+}
+#quickSummary{
+	margin-top: 20px;
+
+}
+#intro {
+	margin-top: 0px;
+	padding-top: 130px;
+	}
+#pageHeader  {
+	background-image: url("images/heading.png");
+	height: 91px;
+	width: 450px;
+	background-repeat: no-repeat;
+	margin-top: 0px;
+	position: absolute;
+	top: 28px;
+	left: 20px;
+	}
+
+	/* firefox */	
+body >#pageHeader  { position: absolute;left: -20px; 	}
+
+#pageHeader h1 span {
+	display: none;
+	}
+
+
+
+}
+/* firefox */
+body >#leftimg { position: fixed; }
+#extraDiv2 {
+    /* bOTTOM image */
+	background-repeat: no-repeat;
+/*	background-position: right bottom; */
+/*	background-position: right bottom;
+	background-image: url("images/bader.png");
+	height: 115px;
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	z-index: 5;*/
+}
+/* firefox */
+body >#extraDiv2 { position: fixed; }
